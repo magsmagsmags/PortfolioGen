@@ -47,15 +47,26 @@ function generateHTML(data) {
 <body>
     <h1> $(data.name)</h1>
     <img src="https://www.placeholder.com">
-</body>
-</html>
-  
-  `
-  
-  
-  
-  
-  
+    <body>
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Hi! My name is ${answers.username}</h1>
+      <p class="lead">I am from ${answers.loc}.</p>
+      <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
+      <ul class="list-group">
+        <li class="list-group-item">My GitHub username is ${answers.github}</li>
+        <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
+      </ul>
+    </div>
+  </div>
+  </body>
+  </html>`;
+}
+
+
+
+
+
 //   <!DOCTYPE html>
 // <html lang="en">
 //    <head>
@@ -183,7 +194,7 @@ function generateHTML(data) {
 //            color: ${colors[data.color].headerColor};
 //            margin: 20px;
 //          }
-         
+
 //          .col {
 //          flex: 1;
 //          text-align: center;
@@ -201,8 +212,8 @@ function generateHTML(data) {
 //           } 
 //          }
 //       </style>
-        };
+};
 
-        
 
-        module.exports = generateHTML
+
+module.exports = generateHTML
