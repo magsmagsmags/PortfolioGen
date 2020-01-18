@@ -1,0 +1,32 @@
+{
+  "name": "PortfolioGen",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "dotenv": "^8.2.0",
+    "electron": "^7.1.9",
+    "electron-html-to": "^2.6.0",
+    "fs": "^0.0.1-security",
+    "generatehtml": "^1.3.0",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.3",
+    "open": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magsmagsmags/PortfolioGen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magsmagsmags/PortfolioGen/issues"
+  },
+  "homepage": "https://github.com/magsmagsmags/PortfolioGen#readme"
+}

@@ -1,0 +1,5 @@
+invoked from index.js
+
+prompt the user
+    for github username
+    for preferred color

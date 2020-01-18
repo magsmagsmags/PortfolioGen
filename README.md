@@ -1,16 +1,22 @@
-# PortfolioGen
+# Developer Profile Generator
 
-# Unit 09 Node.js and ES6+ Homework: Developer Profile Generator
+Welcome to the developer profile generator. It is a command-line application that dynamically generates an HTML and PDF profile from a GitHub username. 
 
-Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:
+# Instructions
 
-```sh
-node index.js
-```
+How To Use The App:
+1. On your own device, clone the repository from: https://github.com/magsmagsmags/PortfolioGen.git
+2. Install the modules with: npm install
+    * Please run 'npm install' in your command line after downloading this generator
+3. Open index.js in Terminal, then input: 'node index.js'
+4. Enter a GitHub profile name and your preferred color from the options provided 
+5. Your profile will generate an HTML and PDF document of the relevant information from the GitHub username/profile
 
-The user will be prompted for a favorite color, which will be used as the background color for cards.
+## Description
 
-The PDF will be populated with the following:
+The user will be prompted for their peferred color from the options given. This color selection will be used as the background color for the generated pdf containing GitHub profile info.
+
+The PDF we generate will contain the following:
 
 * Profile image
 * User name
@@ -24,27 +30,11 @@ The PDF will be populated with the following:
 * Number of GitHub stars
 * Number of users following
 
-Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+## Motivation
 
-```
-AS A product manager
-
-I WANT a developer profile generator
-
-SO THAT I can easily prepare reports for stakeholders
-```
-
-Refer to the [design mockup](./Assets/09-NodeJS-homework-demo.pdf).
-
-## Business Context
-
-When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
+When preparing a report for stakeholders, it is important to have up-to-date information about members of a development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
 
 ## Minimum Requirements
-
-* Functional, deployed application.
-
-* GitHub repository with a unique name and a README describing project.
 
 * The application generates a PDF resume from the user provided GitHub profile.
 
@@ -56,44 +46,13 @@ When preparing a report for stakeholders, it is important to have up-to-date inf
 
 * The background color of the generated PDF matches the color that the user provides.
 
-```
-GIVEN the developer has a GitHub profile
+# Contribute
+Please reach out to me via Slack (Mags Kiefer) or at sheakiefer@gmail.com for code suggestions, critiques, feedback, or offers to collaborate. 
 
-WHEN prompted for the developer's GitHub username and favorite color
+# Credits
 
-THEN a PDF profile is generated
-```
-- - -
+* Brittany Taylor
+* Israel Medina
+* Eric Scott
 
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have more than 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* An animated GIF demonstrating the app functionality
-
-* A generated PDF of your GitHub profile
-
-* The URL of the GitHub repository
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+--------------------------------
