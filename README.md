@@ -19,8 +19,8 @@ node index.js
 5. The profile will generate an HTML and PDF document of the relevant information from the GitHub username/profile
 
 # Screenshots
-* ![Screenshot](/assets/images/pdf_screenshot.png)
-* ![Screenshot](/assets/images/x.png)
+* ![Screenshot](/assets/img/pdf_screenshot.png)
+* ![Screenshot](/assets/img/x.png)
 
 ## Description
 
