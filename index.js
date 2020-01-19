@@ -38,7 +38,8 @@ function init() {
                 "green",
                 "blue",
                 "pink",
-                "red"
+                "red",
+                "purple"
             ]
         }
     ]).then(function (res) {
@@ -47,7 +48,7 @@ function init() {
         const userColor = res.color;
         const queryURL = `https://api.github.com/users/${userName}`;
         const starredURL = `https://api.github.com/users/${userName}/starred`;
-        console.log(userName, userColor, nickname);
+        console.log(nickname, userName, userColor);
 
         gitHubRequest(queryURL).then(function (userData) {
             gitHubStars(starredURL).then(function (starResponse) {
@@ -111,14 +112,3 @@ function init() {
 
 
 init();
-
-// fs.writeFile("profile.html", fileHTML, function (err) {
-//     console.log(err);
-
-//     //then generate html to pdf
-//     // keeping checking against your demo html 
-// })
-// })
-// .catch(error => {
-// console.error('Rejected function called: ' + error.message);
-// })

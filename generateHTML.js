@@ -22,6 +22,12 @@
       headerBackground: "#870603",
       headerColor: "white",
       photoBorderColor: "white"
+    },
+    purple: {
+      wrapperBackground: "#9f7dd3",
+      headerBackground: "#879CDF",
+      headerColor: "white",
+      photoBorderColor: "#FEE24C"
     }
   };
 
@@ -37,12 +43,12 @@
         <title>${userData.fullName}</title>
         <style>
             @page {
-              margin: 0;
+              marhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj                                                            gin: 0;
             }
            *,
            *::after,
            *::before {
-           box-sizing: border-box;
+           box-siooooooooooooooooooooooooo/zing: border-box;
            }
            html, body {
            padding: 0;
