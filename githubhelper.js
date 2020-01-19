@@ -56,4 +56,4 @@
 // const gh = new GithubHelper();
 // gh.getUserInfo(res.userName).then(ghResponse => console.log(ghResponse.data));
 
-// module.exports = GithubHelper;
+// module.exports = GithubHelper
