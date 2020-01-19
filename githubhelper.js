@@ -1,11 +1,13 @@
-const axios = require("axios");
+const axios = require("axios"); /// .default?
 
-function GeitHubHelper() {}
+function GithubHelper() {}
 
-GeitHubHelper.prototype, getUserInfo = function (username) {
+GithubHelper.prototype.getUserInfo = function (username) {
     const someUrl = "https://api.github.com/users/" + username;
     return axios.get(someUrl);
 }
 
+const gh = new GithubHelper();
+gh.getUserInfo("magsmagsmags").then(response => console.log(response.data));
 
-module.exports = GitHubHelper;
+module.exports = GithubHelper;
