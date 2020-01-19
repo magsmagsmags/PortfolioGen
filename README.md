@@ -18,6 +18,10 @@ node index.js
 4. Enter a name, a GitHub profile name, and your preferred color from the options provided 
 5. The profile will generate an HTML and PDF document of the relevant information from the GitHub username/profile
 
+# Screenshots
+* ![Screenshot](/assets/images/pdf_screenshot.png)
+* ![Screenshot](/assets/images/x.png)
+
 ## Description
 
 The user will be prompted for their peferred color from the options given. This color selection will be used as the background color for the generated pdf containing GitHub profile info.
