@@ -39,7 +39,9 @@ function init() {
                 "blue",
                 "pink",
                 "red",
-                "purple"
+                "purple",
+                "orange",
+                "yellow"
             ]
         }
     ]).then(function (res) {

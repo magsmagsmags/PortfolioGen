@@ -28,6 +28,20 @@
       headerBackground: "#879CDF",
       headerColor: "white",
       photoBorderColor: "#FEE24C"
+    },
+    orange: {
+      wrapperBackground: "#FCAA4C",
+      headerBackground: "#F07110",
+      headerColor: "white",
+      photoBorderColor: "#F7F363",
+      color: "#323135"
+    },
+    yellow: {
+      wrapperBackground: "#F3AB40",
+      headerBackground: "#FFF087",
+      headerColor: "#323135",
+      photoBorderColor: "#FDBAFB",
+      color: "#323135"
     }
   };
 
