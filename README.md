@@ -6,8 +6,10 @@ Welcome to the developer profile generator. It is a command-line application tha
 
 How To Use The App:
 1. On your own device, clone the repository from: https://github.com/magsmagsmags/PortfolioGen.git
-2. Install the modules with: npm install
-    * Please run 'npm install' in your command line after downloading this generator
+2. Install the modules with: npm install in your command line after cloning this generator to your local device
+```sh
+npm install
+```
 3. Open index.js in Terminal, then input the following command:
 
 ```sh
