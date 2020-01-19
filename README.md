@@ -8,15 +8,19 @@ How To Use The App:
 1. On your own device, clone the repository from: https://github.com/magsmagsmags/PortfolioGen.git
 2. Install the modules with: npm install
     * Please run 'npm install' in your command line after downloading this generator
-3. Open index.js in Terminal, then input: 'node index.js'
-4. Enter a GitHub profile name and your preferred color from the options provided 
-5. Your profile will generate an HTML and PDF document of the relevant information from the GitHub username/profile
+3. Open index.js in Terminal, then input the following command:
+
+```sh
+node index.js
+```
+4. Enter a name, a GitHub profile name, and your preferred color from the options provided 
+5. The profile will generate an HTML and PDF document of the relevant information from the GitHub username/profile
 
 ## Description
 
 The user will be prompted for their peferred color from the options given. This color selection will be used as the background color for the generated pdf containing GitHub profile info.
 
-The PDF we generate will contain the following:
+The PDF we generate will contain the following from the Github username profile that was entered:
 
 * Profile image
 * User name
