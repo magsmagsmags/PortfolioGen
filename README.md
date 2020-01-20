@@ -2,6 +2,13 @@
 
 Welcome to the developer profile generator. It is a command-line application that dynamically generates an HTML and PDF profile from a GitHub username. 
 
+# User Story
+AS A product manager
+
+I WANT a developer profile generator
+
+SO THAT I can easily prepare reports for stakeholders
+
 # Instructions
 
 How To Use The App:
@@ -20,7 +27,7 @@ node index.js
 
 # Screenshots
 * ![Screenshot](/assets/img/pdf_screenshot.png)
-* ![Screenshot](/assets/img/x.png)
+
 
 ## Description
 
